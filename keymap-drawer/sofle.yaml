@@ -22,7 +22,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '7'
+  - Ctl+U
   - '8'
   - '9'
   - '0'
@@ -91,7 +91,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
-  - LSHFT
+  - Ctl+D
   - {t: ▽, type: trans}
   - CLCK
   - LEFT
