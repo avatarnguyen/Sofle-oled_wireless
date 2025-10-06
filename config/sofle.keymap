@@ -116,7 +116,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+                <&inc_dec_kp RG(PLUS) RG(MINUS)>;
         };
 
         adjust_layer {
