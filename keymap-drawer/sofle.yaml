@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - '-'
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - '='
   - CAPS
   - A
   - S
@@ -53,8 +53,8 @@ layers:
   - RSHFT
   - LEFT CONTROL
   - LALT
-  - LEFT COMMAND
   - lower
+  - LEFT COMMAND
   - {t: SPACE, h: LEFT SHIFT}
   - {t: ENTER, h: RIGHT CONTROL}
   - {t: BACKSPACE, h: raise}
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,8 +133,8 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
-  - '='
   - DELETE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -236,8 +236,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - {type: held}
