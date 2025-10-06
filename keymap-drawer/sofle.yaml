@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - '-'
   - CAPS
   - A
   - S
@@ -133,7 +133,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
-  - ''
+  - '='
   - DELETE
   - {t: ▽, type: trans}
   - INS
@@ -157,8 +157,8 @@ layers:
   - DOWN
   - UP ARROW
   - RIGHT
-  - DEL
-  - BSPC
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
