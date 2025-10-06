@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, CAPS, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, RSHFT, LEFT CONTROL, LALT, LEFT COMMAND, lower, SPACE, ENTER, raise, RIGHT COMMAND, RALT, RIGHT CONTROL]
+  default:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - '`'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - RGB TOG
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LEFT CONTROL
+  - LALT
+  - LEFT COMMAND
+  - lower
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: ENTER, h: RIGHT CONTROL}
+  - {t: BACKSPACE, h: raise}
+  - RIGHT COMMAND
+  - RALT
+  - RIGHT CONTROL
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -74,8 +133,8 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - DELETE
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -86,8 +145,8 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - '0'
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
@@ -110,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
