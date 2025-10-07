@@ -112,7 +112,7 @@
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                                 &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LALT      &kp LCTRL     &kp LC(D)     &trans        &kp CLCK                               &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &kp LEFT_BRACE    &kp RIGHT_BRACE
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans           &trans  &trans          &trans          &kp LC(LEFT)  &kp LC(RIGHT)    &kp BACKSLASH     &trans
-                          &trans        &trans        &mo 3         &mo 3         &kp RG(SPACE)    &trans  &trans          &trans          &trans        &trans
+                          &trans        &trans        &trans        &trans        &kp RG(SPACE)    &trans  &trans          &trans          &trans        &trans
             >;
 
             sensor-bindings =
