@@ -175,8 +175,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - adjust
-  - adjust
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+SPACE
   - {t: ▽, type: trans}
   - {type: held}
