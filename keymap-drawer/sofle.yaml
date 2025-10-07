@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - {t: \, h: RSHFT}
   - LEFT CONTROL
   - LALT
   - lower
@@ -98,7 +98,7 @@ layers:
   - (
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - '='
   - '-'
   - KP PLUS
@@ -111,7 +111,7 @@ layers:
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -175,8 +175,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - adjust
+  - adjust
   - Gui+SPACE
   - {t: ▽, type: trans}
   - {type: held}
