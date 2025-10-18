@@ -54,8 +54,8 @@ layers:
   - LEFT CONTROL
   - LALT
   - lower
-  - LEFT COMMAND
-  - {t: SPACE, h: LEFT SHIFT}
+  - LEFT SHIFT
+  - {t: SPACE, h: LEFT COMMAND}
   - {t: ENTER, h: RIGHT CONTROL}
   - {t: BACKSPACE, h: raise}
   - RIGHT COMMAND
@@ -180,9 +180,9 @@ layers:
   - Gui+SPACE
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
