@@ -134,7 +134,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - DELETE
-  - BACKSPACE
+  - AltGr+BACKSPACE
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+SPACE
   - Gui+SPACE
   - {t: ▽, type: trans}
   - {type: held}
