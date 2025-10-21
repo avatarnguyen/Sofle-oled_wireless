@@ -41,7 +41,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <135>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
+            quick-tap-ms = <5>;
         };
 
         hold_tap_layer: hold_tap_layer {
