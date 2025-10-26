@@ -42,8 +42,9 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             flavor = "balanced";
-            quick-tap-ms = <50>;
+            quick-tap-ms = <30>;
             retro-tap;
+            require-prior-idle-ms = <3>;
         };
 
         hold_tap_layer: hold_tap_layer {
