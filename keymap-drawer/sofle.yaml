@@ -106,8 +106,8 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - Gui+Sft+[
+  - Gui+Sft+]
   - Gui+[
   - Gui+]
   - \
@@ -151,8 +151,8 @@ layers:
   - LALT
   - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - LEFT
   - DOWN
   - UP ARROW
@@ -167,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+[
-  - Gui+Sft+]
+  - '['
+  - ']'
   - Ctl+LEFT
   - Ctl+RIGHT
   - \
