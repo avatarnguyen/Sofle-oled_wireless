@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: LEFT COMMAND}
   - {t: ENTER, h: RIGHT CONTROL}
   - {t: BACKSPACE, h: raise}
-  - RIGHT COMMAND
+  - {t: TAB, h: RIGHT COMMAND}
   - RALT
   - RIGHT CONTROL
   lower:
