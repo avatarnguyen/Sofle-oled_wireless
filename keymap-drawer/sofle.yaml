@@ -58,8 +58,8 @@ layers:
   - {t: SPACE, h: LEFT COMMAND}
   - {t: ENTER, h: RIGHT CONTROL}
   - {t: BACKSPACE, h: raise}
-  - {t: TAB, h: RIGHT COMMAND}
-  - RALT
+  - {t: TAB, h: RIGHT ALT}
+  - RIGHT COMMAND
   - RIGHT CONTROL
   lower:
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - Ctl+LEFT
   - Ctl+RIGHT
   - \
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
