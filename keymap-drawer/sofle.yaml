@@ -53,7 +53,7 @@ layers:
   - {t: \, h: RSHFT}
   - LEFT CONTROL
   - LALT
-  - lower
+  - {t: ESC, h: lower}
   - LEFT SHIFT
   - {t: SPACE, h: LEFT COMMAND}
   - {t: ENTER, h: RIGHT CONTROL}
