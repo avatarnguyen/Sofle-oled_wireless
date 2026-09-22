@@ -152,7 +152,7 @@ layers:
   - LCTRL
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - '&mkp RCLK'
+  - Sft+Gui+G
   - LEFT
   - DOWN
   - UP ARROW
@@ -164,7 +164,7 @@ layers:
   - CUT
   - COPY
   - PASTE
-  - {t: ▽, type: trans}
+  - Gui+Ctl+Alt+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
